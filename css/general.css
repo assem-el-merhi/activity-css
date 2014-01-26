@@ -1,0 +1,91 @@
+/*  CSS Document */
+
+/*
+
+selecto {
+    Property: value;
+    Property: value;
+    Property: value
+}
+
+Each selector is paired with amd styles and element. For example:
+
+html {} is paired with and styles <html>
+
+*/
+
+html {
+    font-family: Garamond, New Times Romam, sans-serif;
+}
+
+body {
+    background-color: #fcce19
+}
+
+h1 {
+    font-family: Garamond, "fantasy",serif;
+    text-shadow: #999 2px 2px; /* colour + x + y */
+    font-size: 4rem; /* 1 rem = 16px */
+    font-weight:lighter;
+}
+
+p,
+li{
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+}
+
+h1+p {
+    font-size: 1.3rem;
+    line-height: 1.4rem;
+}
+
+p strong {
+    color: #ff0000
+ 
+}
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style:italic;
+}
+
+hr {
+    border-bottom: dashed 7px #b00000
+}
+
+ul,
+ol {
+    background-color: #b00000;
+}
+
+li {
+    color: #ffffcc
+}
+
+ol li:first-child {
+    background-color: #808080;
+}
+
+ol li:last-child {
+    background-color: #000;
+}
+
+ol li:sixth-child {
+    background-color: #90ee90
+
+
+
+
+    
+
+    
+        
+    
+
+
+
+
